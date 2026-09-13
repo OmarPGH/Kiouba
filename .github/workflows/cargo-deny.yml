@@ -1,0 +1,2 @@
+- name: cargo-deny
+  uses: EmbarkStudios/cargo-deny-action@v2.1.1
