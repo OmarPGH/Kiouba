@@ -1,0 +1,8 @@
+[package]
+name = "Kiouba"
+version = "0.0.1-beta.1"
+edition = "2024"
+
+[dependencies]
+rand = "0.8"
+dialoguer = "0.11"
