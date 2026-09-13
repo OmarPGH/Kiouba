@@ -1,2 +1,14 @@
-- name: cargo-deny
-  uses: EmbarkStudios/cargo-deny-action@v2.1.1
+name: Cargo-Deny
+
+on:
+  push:
+    branches: [ "main", "master" ]
+  pull_request:
+    branches: [ "main", "master" ]
+
+jobs:
+  run-cargo-deny:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: EmbarkStudios/cargo-deny-action@v2
