@@ -1,4 +1,5 @@
 # 🎲 Kiouba
+
 ## Architecture Overview
 Kiouba follows a simple modular structure:
 
@@ -68,3 +69,11 @@ Kiouba includes unit tests covering the core name generation functionality.
 | :--- | :--- |
 | [`rand`](https://crates.io/crates/rand) | Generates random characters and lengths. |
 | [`dialoguer`](https://crates.io/crates/dialoguer) | Provides interactive terminal prompts and confirmations. |
+
+## ⚖️ License
+
+This project is licensed under the **Apache-2.0**. See the LICENSE file for details.
+
+## 👨‍💻 Author
+
+**Omar Gamal** - Creator and Maintainer
