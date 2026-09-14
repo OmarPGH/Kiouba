@@ -1,5 +1,8 @@
 # 🎲 Kiouba
 
+![License](https://img.shields.io/github/license/OmarPGH/Kiouba?color=green)
+![Language](https://img.shields.io/badge/language-Rust-orange?logo=rust)
+
 ## Architecture Overview
 Kiouba follows a simple modular structure:
 
